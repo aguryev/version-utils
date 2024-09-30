@@ -1,0 +1,18 @@
+[project]
+name = "moonshot-utils"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Andriy Guryev", email = "aguryev@ukr.net"},
+]
+dependencies = [
+    "django==2.2.20",
+    "djangorestframework==3.11",
+]
+requires-python = "==3.8.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
