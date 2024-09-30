@@ -13,6 +13,15 @@ requires-python = "==3.8.*"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.optional-dependencies]
+test = [
+    "pytest==6.0.1",
+    "pytest-django==3.9.0",
+    "pytest-cov==2.10.1",
+    "pytest-mock==3.2.0",
+    "mixer==7.2.2",
+]
+
 
 [tool.pdm]
 distribution = false
